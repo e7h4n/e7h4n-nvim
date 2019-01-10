@@ -93,7 +93,7 @@ sync_repo() {
 
 setup_plug() {
     curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    nvim +PlugInstall +PlugClean +q
+    nvim +PlugInstall! +PlugClean +qall
 }
 
 ############################ MAIN()
