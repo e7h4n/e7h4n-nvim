@@ -38,7 +38,6 @@
     " search results. To clear search highlighting rather than toggle it on
     nmap <silent> <leader>/ :set invhlsearch<CR>
 
-
     " Find merge conflict markers
     map <leader>fc /\v^[<\|=>]{7}( .*\|$)<CR>
 
@@ -48,7 +47,4 @@
     " Map <Leader>ff to display all lines with keyword under cursor
     " and ask which one to jump to
     nmap <Leader>ff [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
-
-    " Easier formatting
-    nnoremap <silent> <leader>q gwip
 " }

@@ -28,6 +28,7 @@
     Plug 'scrooloose/syntastic'
     Plug 'sheerun/vim-polyglot'
     Plug 'tpope/vim-fugitive'
+    Plug 'airblade/vim-gitgutter'
 " }
 
 " Snippet {
