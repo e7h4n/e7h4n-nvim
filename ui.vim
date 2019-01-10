@@ -4,11 +4,11 @@
 
 " Vim UI {
 
+    set ambiwidth=double                               " CJK characters support
     set cursorline                                     " Highlight current line
+    set list                                           " Display specified blank characters
     set relativenumber                                 " Line numbers on
     set showmatch                                      " Show matching brackets/parenthesis
-    set list                                           " Display specified blank characters
-    set ambiwidth=double                               " CJK characters support
 
     if !empty(globpath(&rtp, 'colors/onedark.vim'))
         colorscheme onedark
