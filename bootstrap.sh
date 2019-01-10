@@ -1,25 +1,9 @@
 #!/usr/bin/env bash
 
-#   Copyright 2014 Steve Francia
-#
-#   Licensed under the Apache License, Version 2.0 (the "License");
-#   you may not use this file except in compliance with the License.
-#   You may obtain a copy of the License at
-#
-#       http://www.apache.org/licenses/LICENSE-2.0
-#
-#   Unless required by applicable law or agreed to in writing, software
-#   distributed under the License is distributed on an "AS IS" BASIS,
-#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#   See the License for the specific language governing permissions and
-#   limitations under the License.
-
 ############################  SETUP PARAMETERS
-[ -z "$APP_PATH" ] && APP_PATH="$HOME/.pw-vim-3"
 [ -z "$REPO_URI" ] && REPO_URI='https://github.com/perfectworks/pw-nvim.git'
 [ -z "$REPO_BRANCH" ] && REPO_BRANCH='master'
 debug_mode='0'
-[ -z "$VUNDLE_URI" ] && VUNDLE_URI="https://github.com/Shougo/neobundle.vim"
 
 ############################  BASIC SETUP TOOLS
 msg() {
@@ -109,6 +93,7 @@ sync_repo() {
 
 setup_plug() {
     curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    nvim +PlugInstall +PlugClean +q
 }
 
 ############################ MAIN()
@@ -125,6 +110,4 @@ sync_repo       "$HOME/.config/nvim" \
 
 setup_plug
 
-nvim +PlugInstall +q
-
-success             "Done."
+success         "Done."
