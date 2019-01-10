@@ -43,7 +43,10 @@
     set whichwrap=b,s,h,l,<,>,[,]   " Backspace and cursor keys wrap too
     set foldenable                  " Auto fold code
 
-    colorscheme onedark
+    if !empty(globpath(&rtp, 'colors/onedark.vim'))
+        colorscheme onedark
+    endif
+
     set list
     set listchars=tab:>-,trail:.,extends:>
     set ambiwidth=double
