@@ -12,7 +12,7 @@ Plug 'tyru/fencview.vim'
 Plug 'vim-scripts/lastpos.vim'
 
 " UI
-Plug 'joshdick/onedark.vim'
+Plug 'rakr/vim-one'
 Plug 'sjl/vitality.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
