@@ -91,9 +91,9 @@ sync_repo() {
     debug
 }
 
-setup_plug() {
+install() {
     curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    nvim +PlugInstall! +PlugClean +qall
+    nvim +PlugInstall! +PlugClean +qall!
 }
 
 ############################ MAIN()
@@ -108,6 +108,6 @@ sync_repo       "$HOME/.config/nvim" \
                 "$REPO_BRANCH" \
                 "pw-nvim"
 
-setup_plug
+install
 
 success         "Done."
