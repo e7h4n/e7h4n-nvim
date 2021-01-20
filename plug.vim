@@ -24,7 +24,6 @@ Plug 'rhysd/conflict-marker.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
-Plug 'dbeniamine/cheat.sh-vim'
 
 " Snippet
 Plug 'garbas/vim-snipmate'
