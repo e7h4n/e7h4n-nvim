@@ -5,7 +5,7 @@ pw-nvim is a distribution of plugins and configurations for NeoVim.
 ## Installation
 
 ```bash
-curl https://raw.githubusercontent.com/perfectworks/pw-nvim/master/bootstrap.sh -L -o - | sh
+curl https://raw.githubusercontent.com/e7h4n/pw-nvim/master/bootstrap.sh -L -o - | sh
 ```
 
 ## Update
