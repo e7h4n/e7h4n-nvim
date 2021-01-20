@@ -1,7 +1,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " General
-Plug 'perfectworks/vim-conf'
+Plug 'e7h4n/vim-conf'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
@@ -24,6 +24,7 @@ Plug 'rhysd/conflict-marker.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
+Plug 'dbeniamine/cheat.sh-vim'
 
 " Snippet
 Plug 'garbas/vim-snipmate'
