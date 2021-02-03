@@ -22,7 +22,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'rhysd/conflict-marker.vim'
 Plug 'scrooloose/nerdcommenter'
-Plug 'sheerun/vim-polyglot'
+Plug 'sheerun/vim-polyglot' " A collection of language packs for Vim. (without css3)
 Plug 'tpope/vim-fugitive'
 
 " Snippet
