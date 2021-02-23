@@ -1,6 +1,6 @@
-# pw-nvim: pw's NeoVim Distribution
+# e7h4n-nvim: e7h4n's NeoVim Distribution
 
-pw-nvim is a distribution of plugins and configurations for NeoVim.
+e7h4n-nvim is a distribution of plugins and configurations for NeoVim.
 
 ## Installation
 
