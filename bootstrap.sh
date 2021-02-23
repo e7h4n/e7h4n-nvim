@@ -106,7 +106,7 @@ do_backup       "$HOME/.config/nvim"
 sync_repo       "$HOME/.config/nvim" \
                 "$REPO_URI" \
                 "$REPO_BRANCH" \
-                "pw-nvim"
+                "e7h4n-nvim"
 
 install
 
