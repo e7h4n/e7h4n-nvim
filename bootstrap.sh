@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ############################  SETUP PARAMETERS
-[ -z "$REPO_URI" ] && REPO_URI='https://github.com/e7h4n/pw-nvim.git'
+[ -z "$REPO_URI" ] && REPO_URI='https://github.com/e7h4n/e7h4n-nvim.git'
 [ -z "$REPO_BRANCH" ] && REPO_BRANCH='master'
 debug_mode='0'
 
