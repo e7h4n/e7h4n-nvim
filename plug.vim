@@ -49,4 +49,7 @@ Plug 'hail2u/vim-css3-syntax'
 Plug 'mattn/emmet-vim'
 Plug 'moll/vim-node'
 
+" Beancount
+Plug 'nathangrigg/vim-beancount'
+
 call plug#end()
