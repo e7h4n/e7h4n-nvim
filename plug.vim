@@ -1,7 +1,6 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " General
-Plug 'e7h4n/vim-conf'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mbbill/undotree'
@@ -10,6 +9,8 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sleuth'
 Plug 'tyru/fencview.vim'
 Plug 'vim-scripts/lastpos.vim'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 
 " UI
 Plug 'rakr/vim-one'
@@ -18,6 +19,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 " Programming
+Plug 'neovim/nvim-lspconfig'
+Plug 'glepnir/lspsaga.nvim'
+Plug 'ojroques/nvim-lspfuzzy'
 Plug 'airblade/vim-gitgutter'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'rhysd/conflict-marker.vim'
@@ -35,7 +39,7 @@ Plug 'tomtom/tlib_vim'
 Plug 'godlygeek/tabular'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-abolish'
-Plug 'tpope/vim-surround'
+Plug 'blackcauldron7/surround.nvim'
 
 " Github
 Plug 'mattn/gist-vim'
