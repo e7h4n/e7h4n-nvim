@@ -24,7 +24,6 @@ set wildignorecase
 set wildmode=list:longest,full                     " Command <Tab> completion, list matches, then longest common part, then all.
 
 " UI
-set ambiwidth=double                               " CJK characters support
 set cursorline                                     " Highlight current line
 set list                                           " Display specified blank characters
 set relativenumber                                 " Line numbers on
