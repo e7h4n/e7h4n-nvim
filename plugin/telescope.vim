@@ -1,6 +1,5 @@
 if &rtp =~ 'telescope.nvim'
     nnoremap <c-p> <cmd>Telescope find_files<cr>
-    nnoremap <space> <cmd>Telescope buffers<cr>
 
     nnoremap <leader>ff <cmd>Telescope file_browser<cr>
     nnoremap <leader>fm <cmd>Telescope oldfiles<cr>

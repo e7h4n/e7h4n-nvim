@@ -35,13 +35,6 @@ set shiftwidth=4  " Use indents of 4 spaces
 set softtabstop=4 " Let backspace delete indent
 set tabstop=4     " An indentation every four columns
 
-" Terminal
-if has('nvim')
-    autocmd TermOpen * startinsert
-    autocmd TermOpen * setlocal nornu
-    autocmd TermOpen * setlocal nonu
-endif
-
 " Mappings
 " leader key
 let mapleader = ','
@@ -73,6 +66,3 @@ nnoremap y^ y0
 " Most prefer to toggle search highlighting rather than clear the current
 " search results. To clear search highlighting rather than toggle it on
 nmap <silent> <leader>/ :set invhlsearch<CR>
-
-" For when you forget to sudo.. Really Write the file.
-cmap w!! w !sudo tee % >/dev/null

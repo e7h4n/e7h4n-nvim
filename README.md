@@ -53,7 +53,6 @@ No, you can't.
 * `<C-A>` and `<C-E>` implement emacs style command line cursor movement.
 * swap `0` and `^` in normal mode for fast line head movement.
 * `<leader>/` to toggle highlight search.
-* `:w!!` for sudo write.
 
 ## Plugins
 
