@@ -1,10 +1,11 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " General
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'jlanzarotta/bufexplorer'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 Plug 'mbbill/undotree'
-Plug 'scrooloose/nerdtree'
+Plug 'kyazdani42/nvim-web-devicons' " for file icons
+Plug 'kyazdani42/nvim-tree.lua'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sleuth'
 Plug 'tyru/fencview.vim'
@@ -15,17 +16,20 @@ Plug 'junegunn/fzf.vim'
 " UI
 Plug 'rakr/vim-one'
 Plug 'sjl/vitality.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'hoob3rt/lualine.nvim'
 
 " Programming
 Plug 'neovim/nvim-lspconfig'
 Plug 'glepnir/lspsaga.nvim'
 Plug 'ojroques/nvim-lspfuzzy'
+Plug 'RishabhRD/popfix'
+Plug 'RishabhRD/nvim-lsputils'
 Plug 'airblade/vim-gitgutter'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'rhysd/conflict-marker.vim'
-Plug 'scrooloose/nerdcommenter'
+Plug 'b3nj5m1n/kommentary'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'folke/todo-comments.nvim'
 Plug 'sheerun/vim-polyglot' " A collection of language packs for Vim. (without css3)
 Plug 'tpope/vim-fugitive'
 
@@ -40,9 +44,6 @@ Plug 'godlygeek/tabular'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-abolish'
 Plug 'blackcauldron7/surround.nvim'
-
-" Github
-Plug 'mattn/gist-vim'
 
 " Frontend
 Plug 'hail2u/vim-css3-syntax'
