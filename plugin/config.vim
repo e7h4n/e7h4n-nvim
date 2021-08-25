@@ -49,7 +49,7 @@ nmap gP "0P
 " map double j to <esc>
 inoremap <silent> jj <esc>
 
-" Emacs style command line course move
+" Emacs style course movement under command mode
 cnoremap <C-A> <Home>
 cnoremap <C-E> <End>
 
