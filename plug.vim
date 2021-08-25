@@ -8,6 +8,8 @@ Plug 'tpope/vim-sleuth'
 Plug 'mbbill/fencview'
 Plug 'vim-scripts/lastpos.vim'
 Plug 'jlanzarotta/bufexplorer'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " UI
 Plug 'joshdick/onedark.vim'
@@ -28,12 +30,7 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-abolish'
 Plug 'nathangrigg/vim-beancount'
 
-"--------- Neovim Only ---------
-" Telescope
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-
-" Lsp
+" Neovim Lsp
 Plug 'neovim/nvim-lspconfig'
 Plug 'kabouzeid/nvim-lspinstall'
 Plug 'glepnir/lspsaga.nvim'
